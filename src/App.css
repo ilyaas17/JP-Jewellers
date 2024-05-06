@@ -1,0 +1,132 @@
+*{
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-image: url('./assets/bgimg/27144.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-class{
+  width: 100%;
+}
+
+.home-container{
+  margin: 30px;
+  margin-top: 100px;
+  background-color: beige;
+  padding: 30px;
+  padding-top: 15px;
+  border: 1px solid #ffb300;
+  border-radius: 30px;
+}
+
+#home-main-heading{
+  font-weight: 700;
+  font-size: 46px;
+  text-align: center;
+
+}
+
+.imgs{
+  height:200px;
+  width: 200px;
+  border: 1px solid #ffb300;
+}
+
+.item-list-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item{
+  margin-top: 30px;
+  padding-left: 20px;
+  width: 48%;
+  display: flex;
+}
+
+.item-content{
+  padding-left: 30px;
+}
+
+.about-container{
+  margin: 2rem;
+  background-color: beige;
+  padding: 60px;
+  padding-top: 20px;
+  border-radius: 30px;
+  border: 1px solid #ffb300;
+}
+
+.about-main-heading{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-container > div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 0px;
+}
+
+.about-subcontent{
+  width: 45%;
+  margin-top: 10px;
+
+}
+
+.about-main-heading{
+  font-size: 46px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.about-main-subheading{
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.contact-container{
+  margin: 2rem;
+  text-align: center;
+  background-color: beige;
+  border: 1px solid #ffb300;
+  border-radius: 30px;
+  padding-bottom: 5%;
+}
+
+.contact-heading{
+  font-size: 46px;
+  /* margin-bottom: px; */
+}
+
+.contact-para{
+  font-size: small;
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 30px;
+}
+
+.contact-icons{
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin-left: 22%;
+  padding-top: 30px;
+}
+
+.contact-icon-headings{
+  margin: 10px;
+  font-size: large;
+}
