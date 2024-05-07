@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 
 export default function Contact() {
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='Contact'>
         <h1 className='contact-heading'><u>Contact Us</u></h1>
         <span className='contact-para'>Have a question or want to inquire about our stunning jewelry collections? Reach out to JP Jewellers today! Our friendly team is ready to assist you with any queries regarding our exquisite pieces, custom designs, or special orders. Connect with us via phone, email, or visit our store for a personalized shopping experience.</ span>
         <IconContext.Provider value={{size:'3rem', margin:'0px'}}>

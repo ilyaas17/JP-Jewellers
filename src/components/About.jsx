@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 export default function About() {
   return (
-    <div className='about-container'>
+    <div className='about-container' id='About'>
 
         <h1 className='about-main-heading'><u>About Us</u></h1>
 

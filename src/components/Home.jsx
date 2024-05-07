@@ -16,7 +16,7 @@ export default function Home() {
         {img : j5, title:"A Layered Necklace With a Twist", desc:"Drawn from the world of knitted textures and intricate knots, this dual-layer necklace, featuring a captivating weave pattern, is the ideal complement for your wardrobe. It effortlessly enhances your casual ensembles and adds a touch of style to your off-duty looks!"}
     ]
   return (
-    <div className='home-container'>
+    <div className='home-container' id='Home'>
         <h1 id='home-main-heading'>
             <u>Our Products</u>
         </h1>
