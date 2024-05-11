@@ -151,3 +151,11 @@ body{
   margin: 10px;
   font-size: large;
 }
+
+a{
+  color: inherit;
+
+}
+a :hover{
+  color: #ffb300;
+}

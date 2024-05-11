@@ -13,19 +13,26 @@ export default function Contact() {
         <IconContext.Provider value={{size:'3rem', margin:'0px'}}>
         <div className='contact-icons'>
             <div>
+                <a href="https://www.google.com/maps/place/DLE+Industrial+Area,+Kirti+Nagar,+Delhi,+110015/@28.6571037,77.1403921,17z/data=!3m1!4b1!4m6!3m5!1s0x390d03014d873459:0x72609d194ff62637!8m2!3d28.657142!4d77.1434831!16s%2Fg%2F12hlxvc53?entry=ttu" className='contact-links'>
                 <IoLocation />
                 <h4 className='contact-icon-headings'>Address</h4>
                 <p className='contact-icon-paras'>GTB Nagar, Delhi</p>
+                </a>
             </div>
             <div>
-                <MdPhonelinkRing />
-                <h4 className='contact-icon-headings'>Contact No.</h4>
-                <p className='contact-icon-paras'>+91 XX98342341</p>
+                <a href="tel:+123456789" className='contact-links'>
+                    <MdPhonelinkRing />
+                    <h4 className='contact-icon-headings'>Contact No.</h4>
+                
+                    <p className='contact-icon-paras'>+91 XX98342341</p>
+                </a>
             </div>
             <div>
-                <MdEmail />
-                <h4 className='contact-icon-headings'>Email</h4>
-                <p className='contact-icon-paras'>jpjewellers@gmail.com</p>
+                <a href="mailto:info@example.com" className='contact-links'>
+                    <MdEmail />
+                    <h4 className='contact-icon-headings'>Email</h4>
+                    <p className='contact-icon-paras'>jpjewellers@gmail.com</p>
+                </a>
             </div>
         </div>
         </IconContext.Provider>
